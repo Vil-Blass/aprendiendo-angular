@@ -1,0 +1,10 @@
+<div>
+  <h1>{{ title }}</h1>
+  <p>{{ listado }}</p>
+  <ul >
+    <li *ngFor="let zapatilla of zapatillas" >{{ zapatilla.nombre }},
+      <strong> {{ zapatilla.marca }} </strong>, {{ zapatilla.color }},  {{ zapatilla.precio }}
+      </li>
+
+  </ul>
+</div>
